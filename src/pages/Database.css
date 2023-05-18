@@ -1,0 +1,28 @@
+.Database {
+  font-family: "Georgia", serif;
+  color: #1c6748; 
+  background-color: #b7c994;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+}
+
+/* .Database-header {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */

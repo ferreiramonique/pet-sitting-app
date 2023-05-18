@@ -1,0 +1,11 @@
+.signupButton {
+  background-color: #1c6758;
+  border-color: rgb(8, 8, 8);
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 24px;
+}

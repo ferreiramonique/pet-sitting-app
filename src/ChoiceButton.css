@@ -1,0 +1,11 @@
+.choiceButton {
+  border-color: rgb(8, 8, 8);
+  color: #ffffff;
+  margin: 2%;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 18px;
+}

@@ -1,0 +1,37 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.Navbar {
+  top: 0%;
+  text-align: center;
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  background-color: #1c6739;
+}
+
+.Nav-link {
+  color: #eef2e6;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+}
+
+.Nav-link-logo {
+  align-items: center;
+}
+
+.Nav-brand {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  /* align-items: center; */
+  font-family: "Gill Sans", sans-serif;
+}
+
+/* Color palette from: https://colorhunt.co/palette/1c67583d8361d6cda4eef2e6
+#1C6758
+#3D8361
+#D6CDA4
+#EEF2E6 */

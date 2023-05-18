@@ -1,0 +1,35 @@
+.chooseButton {
+  background-color: #1c6758;
+  border-color: rgb(8, 8, 8);
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 24px;
+}
+
+.card{
+
+    background-color: #fffee6;
+    text-align: center;
+    padding: 2%;
+    border-radius: 12%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cardTitle{
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(241, 180, 23);
+      background: linear-gradient(90deg,#ffd95a,#d80085);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cardImage{
+  border-radius: 10%;
+}
