@@ -1,14 +1,10 @@
 import "./PetImage.css";
-import dogPhoto from "./dogPhoto.jpeg";
 
-function PetImage() {
+function PetImage(props) {
   return (
     <article className="article">
-      <img className="image" src={dogPhoto} alt="dog" />
-      <h1 className="header">
-        We help match pet parents' needs to caring <br></br> pet sitters for a
-        win-win experience!
-      </h1>
+      <img className="image" src={props.photo} alt="" />
+      <h1 className="header">{props.text}</h1>
     </article>
   );
 }

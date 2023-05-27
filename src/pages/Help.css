@@ -1,5 +1,11 @@
-.Help {
+body {
+  height: 100vh;
+  /* force the BODY element to match the height of the HTML element */
   font-family: "Georgia", serif;
   color: #1c6748;
   background-color: #b7c994;
+}
+
+.title {
+  padding: 1rem;
 }

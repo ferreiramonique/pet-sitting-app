@@ -1,4 +1,3 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./PetSitElement.css";
 import ChoiceButton from "./ChoiceButton";
@@ -6,13 +5,12 @@ import ChoiceButton from "./ChoiceButton";
 function PetSitElement(props) {
   return (
     <>
-
       <Card className="card" style={{ width: "25rem" }}>
-        <Card.Img className="cardImage"
+        <Card.Img
+          className="cardImage"
           variant="top"
           src={require("./database/" + props.cardImage)}
           height="180px"
-
         />
         <Card.Body>
           <Card.Title className="cardTitle">{props.cardTitle}</Card.Title>
@@ -23,12 +21,9 @@ function PetSitElement(props) {
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">
-           &#128197; Sitting dates: {props.cardStartDate} - {props.cardEndDate}
+            &#128197; Sitting dates: {props.cardStartDate} - {props.cardEndDate}
           </small>
         </Card.Footer>
-        {/* <Button className="chooseButton" variant="primary">
-          Choose {props.cardTitle}
-        </Button> */}
         <ChoiceButton cardTitle={props.cardTitle} />
       </Card>
       <br></br>

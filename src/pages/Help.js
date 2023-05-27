@@ -4,13 +4,11 @@ import FAQ from "../FAQ";
 
 function Help() {
   return (
-    <div className="Help">
+    <>
       <PetNavbar />
-      <>
-        <h1> Help Center </h1>
-        <FAQ />
-      </>
-    </div>
+      <h1 className="title"> Help Center </h1>
+      <FAQ />
+    </>
   );
 }
 

@@ -4,6 +4,12 @@ import SignupButton from "../SignupButton";
 import CatPhoto from "../catPhoto.jpg";
 import PetImage from "../PetImage";
 import { Link } from "react-router-dom";
+import dogPhoto from "../dogPhoto.jpeg";
+
+const text = [
+  "We help match pet parents' needs to caring pet sitters for a win-win experience!",
+  "Join us!",
+];
 
 function App() {
   return (
@@ -14,27 +20,30 @@ function App() {
         <h3>Have a pet that needs care whilst you're away?</h3>
         <h3>
           Have a love for animals and want to be a sitter for an adorable pet?
-          We got a solution for you!
+          We have a solution for you!
         </h3>
-        <PetImage />
-        {/* <img src={dogPhoto} className="Dog-photo" alt="dogPhoto" /> */}
-        <img className="catimage" src={CatPhoto} alt="cat" />
+        <PetImage
+          className="dogimage"
+          alt="dog"
+          photo={dogPhoto}
+          text={text[0]}
+        />
+        <PetImage
+          className="catimage"
+          alt="cat"
+          photo={CatPhoto}
+          text={text[1]}
+        />
         <br></br>
 
         <Link to="/database">
-          <SignupButton
-            signupButtonText="&#128054; Sign up to pet-sit &#128049;"
-            link="https://google.co.uk"
-          />{" "}
+          <SignupButton signupButtonText="&#128054; Sign up to pet-sit &#128049;" />{" "}
         </Link>
 
         <br></br>
 
         <Link to="/database">
-          <SignupButton
-            signupButtonText="&#128008; Log in &#128021;"
-            link="https://google.co.uk"
-          />{" "}
+          <SignupButton signupButtonText="&#128008; Log in &#128021;" />{" "}
         </Link>
         <br></br>
       </header>

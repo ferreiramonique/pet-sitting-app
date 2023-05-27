@@ -1,29 +1,28 @@
-import Accordion from "react-bootstrap/Accordion";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./FAQ.css";
+import Accordion from "./Accordion";
 
 function FAQ() {
+  const accordionData = [
+    {
+      title: "I am a pet owner. Is this safe for my pet?",
+      content: `Our portal only has verified pet sitters, and we make sure to support you thorughout as to guarantee a safe and fun experience for your pet.`,
+    },
+    {
+      title: "I am a pet sitter. How do I choose a stay?",
+      content: `Navigate to our database section and read the pet profiles for upcoming sits. Choose a sit that suits you best and we will confirm once your request has been approved.`,
+    },
+    {
+      title: "I am a pet. What's in it for me?",
+      content: `Expect lots of love, playtime and treats from your pet sitter!`,
+    },
+  ];
+
   return (
-    <Accordion defaultActiveKey={["0"]} alwaysOpen>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>
-          I am a pet owner. Is this safe for my pet?
-        </Accordion.Header>
-        <Accordion.Body>
-          Our portal only has verified pet sitters, and we make sure to support
-          you thorughout as to guarantee a safe and fun experience for your pet.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>
-          I am a pet sitter. How do I choose a stay?
-        </Accordion.Header>
-        <Accordion.Body>
-          Navigate to our database section and read the pet profiles for
-          upcoming sits. Choose a sit that suits you best and we will confirm
-          once your request has been approved.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+    <div className="accordion">
+      {accordionData.map(({ title, content }) => (
+        <Accordion title={title} content={content} />
+      ))}
+    </div>
   );
 }
 

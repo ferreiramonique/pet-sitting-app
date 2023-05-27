@@ -1,3 +1,39 @@
 * {
   font-family: "Gill Sans", sans-serif;
 }
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  color: #eef2e6;
+  background-color: #3d8361;
+}
+
+.accordion-title:hover {
+  background-color: #1c6758;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: #d6cda4;
+}
+
+/* 
+//
+
+.accordion-item {
+  background-color: #1c6758;
+} */
