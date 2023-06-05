@@ -17,9 +17,8 @@ function App() {
       <PetNavbar />
       <header className="App-header">
         <h1>CFG Pet Sitting</h1>
-        <h3>Have a pet that needs care whilst you're away?</h3>
-        <h3>
-          Have a love for animals and want to be a sitter for an adorable pet?
+        <h3 className="catchy-text">Have a pet that needs care whilst you're away?<br></br>
+          Have a love for animals and want to be a sitter for an adorable pet?<br></br><br></br>
           We have a solution for you!
         </h3>
         <PetImage
