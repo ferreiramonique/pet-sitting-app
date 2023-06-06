@@ -4,9 +4,11 @@ Developed as a capstone project for the JavaScript / React course by [Code First
 
 <!-- ![website gif](placeholder)
  -->
- 
+## Wireframe
+[Miro - Website Wireframe](https://miro.com/app/board/uXjVMOdkvqU=/?share_link_id=939503869290)
+
 ## Deployment
- Deployed using [Vercel](https://vercel.com/): <br> [pet-sitting.vercel.app](https://pet-sitting.vercel.app/)
+ Deployed using Vercel: [pet-sitting.vercel.app](https://pet-sitting.vercel.app/)
  
 ## Usage (local)
 
