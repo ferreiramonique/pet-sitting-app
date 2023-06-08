@@ -1,26 +1,13 @@
 import "./FAQ.css";
 import Accordion from "./Accordion";
+import faqDatabase from "./database/faqDatabase.json"
 
 function FAQ() {
-  const accordionData = [
-    {
-      title: "I am a pet owner. Is this safe for my pet?",
-      content: `Our portal only has verified pet sitters, and we make sure to support you thorughout as to guarantee a safe and fun experience for your pet.`,
-    },
-    {
-      title: "I am a pet sitter. How do I choose a stay?",
-      content: `Navigate to our database section and read the pet profiles for upcoming sits. Choose a sit that suits you best and we will confirm once your request has been approved.`,
-    },
-    {
-      title: "I am a pet. What's in it for me?",
-      content: `Expect lots of love, playtime and treats from your pet sitter!`,
-    },
-  ];
 
   return (
     <div className="accordion">
-      {accordionData.map(({ title, content }) => (
-        <Accordion title={title} content={content} />
+      {faqDatabase.data.map(( el ) => (
+        <Accordion title={el.title} content={el.content} />
       ))}
     </div>
   );
