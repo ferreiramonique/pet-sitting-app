@@ -23,7 +23,7 @@ function PetNavbar() {
                 alt="Paw logo"
               />
             </Nav.Link>
-            <Nav.Link className="Nav-link" href="/">
+            <Nav.Link className="Nav-link" href="/about">
               About Us
             </Nav.Link>
             <Nav.Link className="Nav-link" href="/sitters">

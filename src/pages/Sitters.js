@@ -5,7 +5,7 @@ import "./Sitters.css";
 
 function Sitters() {
   return (
-    <div className="Help">
+    <div className="Sitters">
       <PetNavbar />
       <>
         <h1 className="title"> Available Sitters </h1>
