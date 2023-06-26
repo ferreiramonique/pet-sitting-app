@@ -1,0 +1,56 @@
+.About {
+    font-family: "Georgia", serif;
+    color: #1c6748;
+    background-color: #b7c994;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.authors {
+    text-align: center;
+}
+
+.cards {
+    top: 10%;
+    padding: 1rem 5rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    display: 'flex';
+    justify-content: space-between
+}
+
+.btn {
+    background-color: #1c6758;
+    border-color: rgb(8, 8, 8);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
+
+.wireframe {
+    text-align: center;
+    padding: 15px;
+    border-color: transparent;
+}
+
+/* Color palette from: https://colorhunt.co/palette/1c67583d8361d6cda4eef2e6
+#1C6758
+#3D8361
+#D6CDA4
+#EEF2E6 */

@@ -6,6 +6,7 @@ import App from "./pages/App";
 import Database from "./pages/Database";
 import Help from "./pages/Help";
 import Sitters from "./pages/Sitters";
+import About from "./pages/About";
 
 // <React.StrictMode>
 //  <App />
@@ -18,6 +19,7 @@ root.render(
       <Route path="/database" element={<Database />} />
       <Route path="/help" element={<Help />} />
       <Route path="/sitters" element={<Sitters />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>
 );
