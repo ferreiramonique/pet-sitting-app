@@ -12,10 +12,5 @@
             "title": "I am a pet. What's in it for me?",
             "content": "Expect lots of love, playtime and treats from your pet sitter!"
         }
-        ,
-        {
-            "title": "I am a developer. Where is the source code for this website?",
-            "content": "https://github.com/mgrinstein/pet-sitting-app"
-        }
     ]
 }
